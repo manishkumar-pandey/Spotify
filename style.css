@@ -1,0 +1,214 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  
+  body{
+    background-color: black;
+    color: white;
+    display: flex;
+  
+  
+  }
+  
+  
+  .left{
+    width: 25vw;
+    padding:10px;
+  }
+  .right{
+    position: relative;
+
+    width: 75vw;
+  }
+  .home ul li{
+    display: flex;
+    gap:15px;
+    list-style: none;
+    width:15px ;
+    padding-top: 14px;
+  padding-left: 14px;
+    font-weight: bold;
+  }
+  
+  .heading{
+    display: flex;
+    gap:15px;
+    
+    width:180px;
+    padding-top: 14px;
+    padding-left: 14px;
+   font-size: 12px;
+    font-weight: bold;
+    align-items: center;
+  }
+  .heading img{
+    
+    
+    width:20px;
+  }
+  .library{
+    min-height: 88vh;
+    position: relative;
+  }
+  .footer{
+    display: flex;
+    font-size: 10px;
+    color: gray;
+    gap:13px;
+    position:absolute;
+    bottom:0;
+    padding: 10px 0px;
+    padding-left: 14px;
+   
+    
+  }
+  .footer a{
+  color: grey;
+
+  }
+  .hedar{
+    height: 72px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34 34 34);
+
+    
+  
+  }
+  .hedar > *{
+    padding: 20px
+    
+  }
+  .spotifyPlaylist{
+    padding: 16px;
+   
+    
+    
+  }
+  .cardContainetr{
+   margin: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 70vh;
+
+  }
+  
+  .card{
+   
+    width:140px ;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: brown;
+   position: relative;
+   
+  }
+  .card:hover{
+    background-color: gray;
+  }
+  .card > *{
+    padding-top: 10px;
+  
+  }
+  .card img{
+    width: 100%;
+    object-fit: contain;
+    object-fit: cover;
+  }
+  .play{
+    position: absolute;
+    top: 240px;
+    right: 18px;
+  }
+  circle:hover {
+    fill: darkgreen;
+  }
+
+  .buttons > *{
+    margin: 0 12px;
+    gap: 20px;
+  }
+  .signbtn{
+    background-color: rgb(34 34 34) ;
+    font-weight: bold;
+    color: rgb(156, 148, 148);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 79px;
+
+  }
+
+  .signbtn:hover{
+    font-size: 17px;
+    color: white;
+    
+  }
+  .loginbtn{
+
+    background-color: white ;
+   
+    color: black;
+    border-radius: 21px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    width: 79px;
+  }
+
+  .loginbtn:hover{
+    font-size: 17px;
+   font-weight: bold;
+    
+  }
+
+
+.playbar{
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(158, 158, 193);
+  width: 92%;
+  padding: 12px;
+}
+.songbuttons{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+/**/
+.songbuttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Buttons के बीच gap */
+}
+
+.songbuttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.songbuttons button img {
+  width: 40px;  /* Image size */
+  height: 40px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.songbuttons button:hover img {
+  transform: scale(1.1); /* Hover effect */
+}
+
+
+
+
+
+ 
